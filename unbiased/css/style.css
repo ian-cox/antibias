@@ -1,0 +1,54 @@
+/* Profile Image */
+.pv-top-card-v2-section__photo-wrapper{
+  overflow: hidden!important;
+}
+.pv-top-card-section__photo.presence-entity__image{
+  filter: blur(16px) grayscale(100%)!important;
+}
+
+/* mutual connections */
+p.pv-highlight-entity__secondary-text.t-14.t-black--light.t-normal{
+  filter: blur(5px)!important;
+}
+
+/* mutual connection image */
+.pv-highlight-entity__logo-img.ivm-image-view-model{
+ filter: blur(8px) grayscale(100%)!important;
+}
+
+/* Search results images */
+.ivm-view-attr__img--centered.EntityPhoto-circle-4.presence-entity__image{
+ filter: blur(8px) grayscale(100%)!important; 
+}
+
+.pv-browsemap-section__member-image{
+  filter: blur(8px) grayscale(100%)!important;
+}
+
+ .presence-entity__image.EntityPhoto-circle-2{
+  filter: blur(8px) grayscale(100%)!important; 
+ }
+
+/* messaging */
+.msg-facepile-grid__img.msg-facepile-grid__img--person{
+  filter: blur(8px) grayscale(100%)!important; 
+}
+
+/* Profile Name */
+.pv-top-card-v2-section__info h1{
+  filter: blur(8px)!important;
+}
+
+/* sidebar name */
+span.name.actor-name{
+  filter: blur(5px)!important;
+}
+
+/* General Circles */
+div[class^="EntityPhoto-circle-"],
+div[class*=" EntityPhoto-circle-"],
+.EntityPhoto-circle-2,
+.msg-facepile-grid__img,
+{
+  filter: blur(8px) grayscale(100%)!important; 
+}
