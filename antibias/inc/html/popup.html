@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Antibias</title>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+    <link rel="stylesheet" href="/inc/css/material-components-web-0.41.1.css">
+    <link rel="stylesheet" href="/inc/css/popup.css">
+    <script type="text/javascript" src="/inc/js/jquery.3.3.1.min.js"></script>
+    <script src="/inc/js/material-components-web-0.41.1.min.js"></script>
+    <script src="/inc/js/popup.js"></script>
+</head>
+
+<body>
+<div class="mdc-card antibias-card">
+    <div class="antibias-card__primary">
+        <h2 class="antibias-card__title mdc-typography--subtitle1">Antibias</h2>
+    </div>
+    <div class="antibias-card__secondary">
+        <p class="mdc-typography--body2">Antibias is a Chrome extension for obfuscating personal information from LinkedIn
+            profiles that can lead to biases during the hiring process.</p>
+    </div>
+    <div class="mdc-card__actions">
+        <div class="mdc-card__action-buttons">
+
+            <a class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded"
+               href="https://docs.google.com/forms/d/1UxHwcXCYN4nm48skArNfxDdUtccIbZl0YNIzIbgRdHQ/edit?usp=sharing"
+               target="_blank">Feedback</a>
+        </div>
+        <div class="switch-container">
+            <label for="enable-switch" class="mdc-typography--body2">toggle on/off </label>
+            <div class="mdc-switch">
+                <div class="mdc-switch__track"></div>
+                <div class="mdc-switch__thumb-underlay">
+                    <div class="mdc-switch__thumb">
+                        <input type="checkbox" id="enable-switch" class="mdc-switch__native-control" role="switch">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

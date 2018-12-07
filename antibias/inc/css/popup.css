@@ -1,0 +1,97 @@
+:root {
+    --mdc-theme-secondary: #1a73e8;
+}
+
+.mdc-theme--secondary {
+    color: #1a73e8 !important;
+    /* @alternate */
+    color: var(--mdc-theme-secondary, #1a73e8) !important;
+}
+
+html, body {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+.antibias-card {
+    background: url(/inc/img/icon-enabled/icon48.png) 22px 30px  no-repeat;
+    border-radius: 0;
+    width: 400px;
+    padding: 1rem 2rem 0.4rem 6rem;
+}
+.antibias-card__primary {
+    padding: 0 1rem 0 0;
+
+
+}
+.mdc-typography--subtitle1 {
+    margin: 1rem 0 0 0;
+}
+.antibias-card__secondary {
+    padding: 0 0 8px;
+    margin: 0;
+
+}
+.antibias-card__secondary p.mdc-typography--body2 {
+    margin-top: 0;
+    background: transparent;
+}
+.antibias-card .mdc-card__actions {
+    height: 48px;
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    line-height: 154%;
+    margin-left: -6rem;
+    margin-right: -2em;
+    padding-bottom: 8px;
+    padding-inline-end:  20px;
+    padding-top: 8px;
+}
+.antibias-card .mdc-card__actions .mdc-card__action-buttons {
+
+}
+
+.antibias-card .mdc-card__actions .mdc-card__action-buttons a.mdc-button.mdc-card__action.mdc-card__action--button {
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 4px;
+    color: #1a73e8;
+    flex-shrink: 0;
+    font-weight: 500;
+    height: 32px;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: none;
+    margin-bottom:  0px;
+    margin-inline-start: 8px;
+    margin-left: 8px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom:  8px;
+    padding-left: 16px;
+    padding-right:  16px;
+    padding-top: 8px;
+    text-decoration-color:  rgb(26, 115, 232);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-transform: none;
+    letter-spacing: initial;
+}
+
+.antibias-card .mdc-card__actions .switch-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 0;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+
+
+}
+.antibias-card .mdc-card__actions .switch-container label {
+    display:flex;
+    margin-left: auto;
+    padding-right: 1rem;
+    opacity: 0.8;
+}
